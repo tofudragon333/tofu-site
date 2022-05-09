@@ -1,3 +1,27 @@
 body {
-    background: blue;
+    background: whitesmoke;
+    font-family: sans-serif;
+    align-content: center;
+}
+#tagline {
+    background-image: url("./pictures/garden.JPG");
+    background-color: #cccccc;
+    background-size: cover;
+    padding: 200px;
+    color: white;
+    font-style: italic;
+}
+
+.opening h2 {
+    font-style: italic;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 2px 2px 2px 0px;
+}
+
+.row {
+    display: flex;
 }
